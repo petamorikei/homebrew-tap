@@ -1,16 +1,20 @@
 # Petamorikei Tap
 
-## How do I install these formulae?
+Casks that Homebrew does not ship.
 
-`brew install petamorikei/tap/<formula>`
+| Cask | Notes |
+|---|---|
+| `withsecure-elements-agent` | WithSecure Elements Agent, keyless installer. Activate it after install with `sudo /Library/WithSecure/bin/activator --subscription-key <key>`, then approve the system extension and Full Disk Access in System Settings. |
 
-Or `brew tap petamorikei/tap` and then `brew install <formula>`.
+## How do I install these casks?
+
+`brew install --cask petamorikei/tap/<cask>`
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "petamorikei/tap"
-brew "<formula>"
+cask "petamorikei/tap/<cask>"
 ```
 
 ## Documentation
