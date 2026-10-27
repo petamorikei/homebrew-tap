@@ -1,9 +1,9 @@
-# Petamorikei Tap
+# Petamori's' Tap
 
 Casks that Homebrew does not ship.
 
-| Cask | Notes |
-|---|---|
+| Cask                        | Notes                                                                                                                                                                                                                      |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `withsecure-elements-agent` | WithSecure Elements Agent, keyless installer. Activate it after install with `sudo /Library/WithSecure/bin/activator --subscription-key <key>`, then approve the system extension and Full Disk Access in System Settings. |
 
 ## How do I install these casks?
